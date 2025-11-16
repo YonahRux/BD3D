@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bcufdnw5mhknd"]
+
+[node name="camera_controller" type="SpringArm3D"]
+spring_length = 5.0
+
+[node name="Camera3D" type="Camera3D" parent="."]

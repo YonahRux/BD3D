@@ -1,6 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://bi8q5ecm41u7j"]
+[gd_scene load_steps=3 format=3 uid="uid://bi8q5ecm41u7j"]
 
 [ext_resource type="Script" uid="uid://c7cq2w6j4fpr5" path="res://main.gd" id="1_jjgbg"]
 
+[sub_resource type="CylinderMesh" id="CylinderMesh_jjgbg"]
+
 [node name="Main" type="Node3D"]
 script = ExtResource("1_jjgbg")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.17767195, 1.1053168, 2.193913, 0.7468058, 1.4184207, -1.0847918, -1.0808688, 0.7983397, -1.1101487, 4.60898, 1.5513585, 0.66250837)
+mesh = SubResource("CylinderMesh_jjgbg")

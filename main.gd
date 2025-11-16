@@ -1,4 +1,7 @@
 extends Node3D
 
 func _ready() -> void:
-	print("WHOA")
+	pass
+
+func _process(_delta: float) -> void:
+	pass
